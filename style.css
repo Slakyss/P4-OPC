@@ -273,6 +273,9 @@ a:hover {
 }
 
 .row-no-gutters {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     margin-right: 0;
     margin-left: 0;
 }
@@ -728,6 +731,15 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+q { 
+    font-size: 18px;
+    color: #333333;
+}
+
+.signature {
+    color: #333333;
 }
 
 .icons {
